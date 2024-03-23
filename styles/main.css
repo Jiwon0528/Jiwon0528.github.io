@@ -21,13 +21,14 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-bottom: 1px solid #375e97;
   }
-  
+  h2{background-color: #eeeeee
+    border: 5px purple solid}
   h2 {
     <ul>
     font-size: 1.5em;
     padding: 1em;
     border-bottom: 10px purple dotted
-  }
+    }
   
   .job-title {
     color: #999999;
