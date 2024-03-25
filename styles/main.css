@@ -1,9 +1,8 @@
 p{
-    border: 3px rgba(38, 0, 255, 0.829) solid;
-    color: rgba(55, 0, 255, 0.582)
+    color: black
 }
 h2{
-    color: green
+    color: black
     }
 
 
@@ -26,6 +25,7 @@ body {
     <ul>
     font-size: 1.5em;
     padding: 1em;
+    font-style: italic;
         }
   
   .job-title {
