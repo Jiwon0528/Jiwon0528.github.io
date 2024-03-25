@@ -34,6 +34,7 @@ body {
   .job-title {
     color: #999999;
     font-weight: bold;
+    border: 5px purple solid
   }
   
   a:link, a:visited {
