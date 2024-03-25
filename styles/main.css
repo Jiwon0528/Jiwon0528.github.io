@@ -31,14 +31,14 @@ body {
     color: #999999;
     font-weight: bold;
   }
+
+  ul {background-color: #eeeeee
+      border: 5px purple solid}
   
   a:link, a:visited {
     color: green;
-    background-color: #eeeeee;
   }
   
   a:hover {
     text-decoration: none;
-    background-color: #eeeeee;
-    border: 5px purple solid
   }
