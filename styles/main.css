@@ -3,10 +3,9 @@ p{
     color: rgba(55, 0, 255, 0.582)
 }
 h2{
-    color: green}
-h1{
-    font-style: italic;
-}
+    color: green
+    }
+
 
 body{background-color: white;}
 
@@ -19,7 +18,7 @@ body {
     color: hotpink;
     font-size: 2em;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    border-bottom: 1px solid #375e97;
+    border-bottom: 10px purple dotted;
   }
   
   h2 {
@@ -27,7 +26,6 @@ body {
     <ul>
     font-size: 1.5em;
     padding: 1em;
-    border-bottom: 10px purple dotted
         }
   
   .job-title {
