@@ -21,7 +21,6 @@ body {
   }
   
   h2 {
-    background-color: #eeeeee;
     <ul>
     font-size: 1.5em;
     padding: 1em;
@@ -31,11 +30,12 @@ body {
   .job-title {
     color: #999999;
     font-weight: bold;
-    border: 5px purple solid;
   }
   
   a:link, a:visited {
     color: green;
+    background-color: #eeeeee;
+    border: 10px purple solid
   }
   
   a:hover {
