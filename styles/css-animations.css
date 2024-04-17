@@ -4,10 +4,11 @@
 }
 
 .hover-highlight-card:hover {
-    background-color: red
+    background-color: #cceafa
 }
 .hover-highlight-card:hover{
-    box-shadow:10px 5px 5px blue;
+    box-shadow:10px 5px 5px #00aaff;
+    transition: 0.5s
 }
 
 /* Task 2: Animated Navigation Menu */
@@ -26,8 +27,10 @@
     background-color: white;
 }
 .animated-nav-menu a:hover{
-    background-color: blue;
+    background-color: #00aaff;
     transition: background-color 0.7s;
+    color: white;
+    transition: 0.5s
 }
 
 /* Task 3: Button Press Animation */
@@ -75,8 +78,9 @@
 .fading-gallery img{
     opacity:0.5
 }
-.fading gallery img:hover{
+.fading-gallery img:hover{
     opacity:1;
-    transform: transitionX(10px) scale(2,2)
-
+    transform: transitionX(10px) scale(2,2);
+    box-shadow: 12px 12px 2px 1px gray;
+    transition: 0.5s
 }
