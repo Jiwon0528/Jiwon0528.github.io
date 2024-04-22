@@ -80,7 +80,7 @@
 }
 .fading-gallery img:hover{
     opacity:1;
-    transform: transitionX(10px) scale(2,2);
+    transform: translateY(-10px) scale(1.3,1.3);
     box-shadow: 12px 12px 2px 1px gray;
     transition: 0.5s
 }
