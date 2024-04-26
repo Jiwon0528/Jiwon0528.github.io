@@ -3,13 +3,15 @@ for (let i = 1; i < 11; i++) {
     console.log(i * i);
 }
 console.log("Task 2")
-for (let i = 1; i < 5; i++) {
+for (let i = 1; i > 5; i++) {
     console.log (i)
-    console.log("Blastoff!")
+    if (i == 1){
+        console.log("Blastoff!");
+    }
 }
 console.log("Task 3")
 for (let i = 2; i < 100; i++) {
-    console.log (i + 2)
+    console.log (i)
 }
 console.log("Task 4")
 let sum = 0;
