@@ -3,7 +3,7 @@ for (let i = 1; i < 11; i++) {
     console.log(i * i);
 }
 console.log("Task 2")
-for (let i = 5; i < 10; i++) {
+for (let i = 5; i > 5; i++) {
     console.log (i - 1)
     console.log("Blastoff!")
 }
