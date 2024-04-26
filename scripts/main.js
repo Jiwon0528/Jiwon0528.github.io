@@ -8,7 +8,7 @@ for (let i = 5; i > 5; i++) {
     console.log("Blastoff!")
 }
 console.log("Task 3")
-for (let i = 2; i < 26; i++) {
+for (let i = 2; i < 100; i++) {
     console.log (i + 2)
 }
 console.log("Task 4")
