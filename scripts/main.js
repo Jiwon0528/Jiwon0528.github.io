@@ -3,9 +3,9 @@ for (let i = 1; i < 11; i++) {
     console.log(i * i);
 }
 console.log("Task 2")
-for (let i = 5; i < 5; i++) {
+for (let i = 5; i < 10; i++) {
     console.log (i - 1)
-    print("Blastoff!")
+    console.log("Blastoff!")
 }
 console.log("Task 3")
 for (let i = 2; i < 26; i++) {
