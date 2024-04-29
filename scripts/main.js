@@ -20,7 +20,7 @@ for (let i = 0; i < 101; i++) {
 }
 console.log(sum);
 
-console.lot("Task 5")
+console.log("Task 5")
 let iFactorial = i;
 for (let i = 1; i < 11; i++) {
     iFactorial = i * iFactorial;
