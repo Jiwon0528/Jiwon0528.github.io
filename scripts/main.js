@@ -25,6 +25,7 @@ for (let i = 1; i < 11; i++) {
 }
 console.lot("Task 6")
 let arr = [3,1,4,1,5,9]
+    console.log(arr.length)
 
 console.lot("Task 7")
 let arr = [3,1,4,1,5,9]
