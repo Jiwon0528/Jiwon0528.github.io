@@ -54,3 +54,12 @@ for (let i=1; i<11; i++) {
    console.log(arr3)
 
 console.log("Task 10")
+let arr4 = [];
+for (let i = 0; i <arr.length; i++) {
+    arr4.push(arr.at(-i-1));
+}
+
+let arr5 = [];
+while(arr.length > 0) {
+    arr5.push(arr.pop());
+}
