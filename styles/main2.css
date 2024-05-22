@@ -1,0 +1,13 @@
+h1{
+    color: gray
+}
+h2 {
+    color: rgb(0, 174, 255)
+}
+h3 {
+    color: gray
+}
+a:link,
+a:visited {
+  color:rgb(0, 174, 255);
+}
