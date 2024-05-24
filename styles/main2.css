@@ -13,5 +13,9 @@ a:visited {
 }
 
 .skyblue {
-  color:rgb(0, 174, 255);
+  color: rgb(0,174,255)
 }
+img {
+  border: solid rgb(245, 74, 74) 2px
+}
+
