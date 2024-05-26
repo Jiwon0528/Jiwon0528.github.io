@@ -1,6 +1,4 @@
-h1{
-    color: rgb(0,174,255)
-}
+
 h2 {
     color: rgb(245, 74, 74)
 }
@@ -19,3 +17,9 @@ img {
   border: solid rgb(245, 74, 74) 2px
 }
 
+.blueBackground {
+  background-color: rgb(197, 237, 249)
+}
+.redBackground {
+  background-color: rgb(250, 194, 194)
+}
