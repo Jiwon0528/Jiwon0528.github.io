@@ -1,6 +1,7 @@
 
 h2 {
-    color: rgb(245, 74, 74)
+
+    color: rgb(0,174,255)
 }
 h3 {
     color: gray
@@ -11,7 +12,7 @@ a:visited {
 }
 
 .skyblue {
-  color: rgb(0,174,255)
+  color: rgb(245,74,74)
 }
 img {
   border: solid rgb(245, 74, 74) 2px
