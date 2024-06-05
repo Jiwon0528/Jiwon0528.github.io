@@ -55,7 +55,27 @@
 </ul>
 </div>
 </div>
-<script>
-  
+<label for ="english">
+   English: 
+  <input type="text" name="english" id="english">
+</label>
+<br>
+<label for = "french">
+  French: 
+  <input type ="text" name="french" id="french">
+</label>
+<script type="module">
+  import translate from 'https:/;cdn.jsdelivr.net/npm/translate/index.min.js';
+
+  translate.key = "AIzaSyDVpMFVDJYPouoI54vOAXNy5ZM-2YH9Lxw";
+  const english = document.getElementById("english");
+  constfrench = document.getElementById("french");
+
+  english.addEventListener("change", async function () {
+    french.value = await translate(english.value, {from: "en", to: "fr"});
+  });
+  french.addEventListener("change",async function () {
+    english.value = await translate(french.value,{from: "fr", to: "en"})
+  });
 </script>
 </body>
