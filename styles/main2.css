@@ -23,7 +23,7 @@ img {
 }
 img:hover{
   opacity: 1;
-  transform: translateY(-2px) translateX(30px) scale(1.1,1.1);
+  transform: translateY(-2px) translateX(40px) scale(1.1,1.1);
   box-shadow: 10px 5px 5px rgb(238, 161, 161);
   transition: 0.5s;
 }
