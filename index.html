@@ -54,7 +54,7 @@
   <li>Je voudrais... - I would like...</li>
 </ul>
 <label for ="english">
-  English: 
+  English:
  <input type="text" name="english" id="english">
 </label>
 <br>
@@ -62,20 +62,23 @@
  French: 
  <input type ="text" name="french" id="french">
 </label>
-</div>
-</div>
 <script type="module">
-  import translate from 'https://cdn.jsdelivr.net/npm/translate/index.min.js';
+      
+      import translate from 'https://cdn.jsdelivr.net/npm/translate/index.min.js';
 
-  translate.key = "AIzaSyDVpMFVDJYPouoI54vOAXNy5ZM-2YH9Lxw";
-  const english = document.getElementById("english");
-  constfrench = document.getElementById("french");
+translate.key = "AIzaSyDVpMFVDJYPouoI54vOAXNy5ZM-2YH9Lxw";
+const english = document.getElementById("english");
+const french = document.getElementById("french");
 
-  english.addEventListener("change", async function () {
-    french.value = await translate(english.value, {from: "en", to: "fr"});
-  });
-  french.addEventListener("change",async function () {
-    english.value = await translate(french.value,{from: "fr", to: "en"})
-  });
+english.addEventListener("change", async function () {
+    french.value = await translate(english.value, { from: "en", to: "fr" });
+});
+french.addEventListener("change", async function () {
+    english.value = await translate(french.value, { from: "fr", to: "en" });
+});
+
 </script>
+</div>
+</div>
 </body>
+</html>
