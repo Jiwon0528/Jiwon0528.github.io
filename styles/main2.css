@@ -19,7 +19,7 @@ h3 {
 }
 img {
   border: solid rgb(245, 74, 74) 2px;
-  transform: translateX(30px);
+  transform: translateX(100px);
 }
 img:hover{
   opacity: 1;
