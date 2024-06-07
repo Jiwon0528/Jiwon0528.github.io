@@ -63,7 +63,8 @@
 <label for = "french">
  French: 
  <input type ="text" name="french" id="french">
-</label>
+</label> <br>
+<button>don't click</button>
 <script type="module">
       
       import translate from 'https://cdn.jsdelivr.net/npm/translate/index.min.js';
@@ -78,7 +79,13 @@ english.addEventListener("change", async function () {
 french.addEventListener("change", async function () {
     english.value = await translate(french.value, { from: "fr", to: "en" });
 });
+const btn = document.querySelector("button");
 
+function changeBackground() {
+  const red = `rgb(100,100,100)`;
+  document.body.style.backgroundColor = red;
+}
+btn.addEventListener("click", changeBackground);
 </script>
 </div>
 </body>
